@@ -1,3 +1,6 @@
+#include <behaviors/battery_history_request.dtsi>
+
+
 #include "KUKEY42.dtsi"
 
 &kscan0 {
