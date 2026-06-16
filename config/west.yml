@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/r-Keys-kbd
     - name: kot149
       url-base: https://github.com/kot149
+    - name: caksoylar
+      url-base: https://github.com/caksoylar
   projects:
     - name: zmk
       remote: cormoran
@@ -31,5 +33,8 @@ manifest:
     - name: zmk-mouse-gesture
       remote: kot149
       revision: v1
+    - name: zmk-rgbled-widget
+      remote: caksoylar
+      revision: main
   self:
     path: config
