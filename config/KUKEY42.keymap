@@ -143,10 +143,10 @@
 
         NUM {
             bindings = <
-&trans       &trans           &trans        &trans  &trans                                       &trans   &kp JP_LBRACE    &kp JP_RBRACE    &trans  &trans
-&trans       &trans           &trans        &trans  &trans     &kp HOME       &kp RIGHT_CONTROL  &trans   &kp JP_LPAREN    &kp JP_RPAREN    &trans  &trans
-&trans       &trans           &trans        &trans  &trans     &kp END        &kp JP_KANA        &trans   &kp JP_LBRACKET  &kp JP_RBRACKET  &trans  &kp RIGHT_SHIFT
-&kp JP_EISU  &kp RIGHT_SHIFT  &kp LEFT_WIN  &trans  &kp SPACE  &kp ENTER      &kp BACKSPACE      &kp TAB                                            &mt RIGHT_ALT ESCAPE
+&none   &none   &none   &none   &none                       &none   &kp JP_LBRACE    &kp JP_RBRACE    &none  &none
+&none   &none   &none   &none   &none   &trans      &trans  &none   &kp JP_LPAREN    &kp JP_RPAREN    &none  &none
+&none   &none   &none   &none   &none   &trans      &trans  &none   &kp JP_LBRACKET  &kp JP_RBRACKET  &none  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                           &trans
             >;
         };
 
